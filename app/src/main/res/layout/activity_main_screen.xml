@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cryptosecond"
+    android:alpha="0.8"
+    android:layout_centerInParent="true"
+    tools:context=".MainScreen">
+
+    <TextView
+        android:id="@+id/crypto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRYPTO"
+        android:textSize="80dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/graphy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/crypto"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="GRAPHY"
+        android:textColor="@color/black"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/graphy"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/ceviche_one"
+        android:text="secure your message"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+</RelativeLayout>
